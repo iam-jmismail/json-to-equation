@@ -15,7 +15,7 @@
     "url": "https://github.com/iam-jmismail/json-to-equation.git"
   },
   "author": "Mohamed Ismail",
-  "license": "ISC",
+  "license": "MIT",
   "description": "A TypeScript-based library for evaluating nested arithmetic expressions in JSON format, utilizing high-precision Big.js calculations.",
   "devDependencies": {
     "@types/big.js": "^6.2.2",

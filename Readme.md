@@ -1,4 +1,4 @@
-json-to-equation, a robust library leveraging big.js to perform precise arithmetic operations using json notation.
+json-to-equation, a light weight library leveraging big.js to perform precise arithmetic operations using json notation.
 
 ##  Features 
 
@@ -11,7 +11,6 @@ json-to-equation, a robust library leveraging big.js to perform precise arithmet
 npm install json-to-equation --save
 ```
 
-
 ## Usage
 
 ### Importing the Library
@@ -21,8 +20,9 @@ import { Constants, evaluateExpression } from 'json-to-equation';
 
 ### Accessing Constants
 ```ts
-console.log(Constants.Physics.C); // Output: Speed of light in vacuum
-console.log(Constants.Math.PI);   // Output: Pi
+console.log(Constants.Physics.C); // Output: Speed of light - 299792458
+console.log(Constants.Math.PI);   // Output: Pi - 3.141592653589793
+console.log(Constants.Math.PI);   // Output: Faraday constant - 96485.33212
 ```
 
 ### Evaluating Expressions
