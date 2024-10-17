@@ -15,7 +15,7 @@ npm install json-to-equation --save
 
 ### Importing the Library
 ```ts
-import { Constants, evaluateExpression } from 'json-to-equation';
+import { Constants, evaluate } from 'json-to-equation';
 ```
 
 ### Accessing Constants
@@ -43,6 +43,35 @@ console.log(evaluate({
         ] // Result : 400 
     }]
 })) // Output: 400
+```
+
+
+### Complex Expressions
+Express complex equations as dynamic json representation
+
+```ts 
+import { Constants, evaluate } from 'json-to-equation';
+
+const m1 = 10; 
+const m2 = 20;
+const r = 12
+
+console.log(evaluate({
+    $mul : [
+        Constants.Physics.G, // Universal Gravitational Constant
+        {
+            $div : [
+                {
+                    $mul : [m1, m2]
+                },
+                 {
+                    $mul : [r, r]
+                },
+            ]
+        }
+    ]
+})) // Result : 
+
 ```
 
 ### Expression Formats
