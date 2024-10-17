@@ -49,6 +49,8 @@ console.log(evaluate({
 ### Complex Expressions
 Express complex equations as dynamic json representation
 
+Eg : The gravitational force is given by \( F = \frac{G M m}{r^2} \).
+
 ```ts 
 import { Constants, evaluate } from 'json-to-equation';
 
