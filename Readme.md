@@ -136,36 +136,36 @@ console.log(Constants.Math.PI);   // Output: Faraday constant - 96485.33212
 
 #### Physics 
 
-| Symbol | Definition                                    | Accessor                |
-|--------|-----------------------------------------------|---------------------|
-| \( C \) | Speed of light in vacuum (m/s)              | `Constants.Physics.C` |
-| \( G \) | Newton's Universal Gravitation Constant (m³ kg⁻¹ s⁻²) | `Constants.Physics.G` |
-| \( h \) | Planck's constant (J s)                      | `Constants.Physics.h` |
-| \( e \) | Elementary charge (C)                        | `Constants.Physics.e` |
-| \( \epsilon_0 \) | Vacuum permittivity (F/m)              | `Constants.Physics.epsilon_0` |
-| \( \alpha \) | Fine-structure constant (dimensionless)  | `Constants.Physics.alpha` |
+| Symbol       | Definition                                    | Accessor                  |
+|--------------|-----------------------------------------------|---------------------------|
+| &#67;        | Speed of light in vacuum (m/s)              | `Constants.Physics.C`     |
+| &#71;        | Newton's Universal Gravitation Constant (m³ kg⁻¹ s⁻²) | `Constants.Physics.G`     |
+| &#104;       | Planck's constant (J s)                      | `Constants.Physics.h`     |
+| &#101;       | Elementary charge (C)                        | `Constants.Physics.e`     |
+| &#949;&#48; | Vacuum permittivity (F/m) | `Constants.Physics.epsilon_0` |
+| &#945;       | Fine-structure constant (dimensionless)      | `Constants.Physics.alpha` |
 
 #### Maths 
 
-| Symbol | Definition                        | Accessor               |
-|--------|-----------------------------------|---------------------|
-| \( \pi \) | Pi                             | `Constants.Math.PI` |
-| \( e \) | Euler's number                  | `Constants.Math.e`  |
-| \( \phi \) | Golden ratio                  | `Constants.Math.phi` |
-| \( \sqrt{2} \) | Square root of 2          | `Constants.Math.sqrt2` |
-| \( \ln(2) \) | Natural logarithm of 2     | `Constants.Math.ln2` |
-| \( \ln(10) \) | Natural logarithm of 10   | `Constants.Math.ln10` |
+| Symbol      | Definition                        | Accessor                  |
+|-------------|-----------------------------------|---------------------------|
+| &#960;      | Pi                             | `Constants.Math.PI`       |
+| &#101;      | Euler's number                  | `Constants.Math.e`        |
+| &#966;      | Golden ratio                    | `Constants.Math.phi`      |
+| &#8730;2    | Square root of 2                | `Constants.Math.sqrt2`    |
+| &#1087;     | Natural logarithm of 2          | `Constants.Math.ln2`      |
+| &#1085;10   | Natural logarithm of 10         | `Constants.Math.ln10`     |
 
 #### Chemistry
 
-| Symbol | Definition                                      | Accessor                   |
-|--------|-------------------------------------------------|------------------------|
-| \( N_A \) | Avogadro's number (1/mol)                    | `Constants.Chemistry.N_A` |
-| \( R \) | Gas constant (J/(mol·K))                       | `Constants.Chemistry.R` |
-| \( k \) | Boltzmann constant (J/K)                       | `Constants.Chemistry.k` |
-| \( F \) | Faraday constant (C/mol)                       | `Constants.Chemistry.F` |
-| \( V_m \) | Molar volume of an ideal gas at STP (m³/mol) | `Constants.Chemistry.V_m` |
-| \( \Delta H_f \) | Standard enthalpy of formation for water (kJ/mol) | `Constants.Chemistry.deltaH_f` |
+| Symbol       | Definition                                      | Accessor                    |
+|--------------|-------------------------------------------------|-----------------------------|
+| &#78;&#65;   | Avogadro's number (1/mol)                      | `Constants.Chemistry.N_A`   |
+| &#82;        | Gas constant (J/(mol·K))                       | `Constants.Chemistry.R`     |
+| &#107;       | Boltzmann constant (J/K)                       | `Constants.Chemistry.k`     |
+| &#70;        | Faraday constant (C/mol)                       | `Constants.Chemistry.F`     |
+| &#86;&#109;  | Molar volume of an ideal gas at STP (m³/mol)  | `Constants.Chemistry.V_m`   |
+| &#8710;H&#102; | Standard enthalpy of formation for water (kJ/mol) | `Constants.Chemistry.deltaH_f` |
 
 
 ### License
