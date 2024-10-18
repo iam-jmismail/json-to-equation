@@ -1,8 +1,27 @@
 {
   "name": "json-to-equation",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "keywords": [
+    "json",
+    "equation",
+    "arithmetic",
+    "mathematics",
+    "constants",
+    "precision",
+    "evaluate",
+    "operations",
+    "tree structure",
+    "nested expressions",
+    "addition",
+    "subtraction",
+    "multiplication",
+    "division",
+    "exponentiation",
+    "library",
+    "math library"
+  ],
   "files": [
     "dist"
   ],
